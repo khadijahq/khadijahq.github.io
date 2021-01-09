@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>Homepage</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/index.css">
+<embed src="mp3/audio.mp3" hidden="true" autostart="true"</embed>
+<body>
+<br>
+<h1 class="glow">OPEN EVERY DAY!<br>
+10 a.m-10 p.m</h1>
+<div class="header">
+  <img src="png/logo.png" />
+<br>
+<div class="name">
+  <h1>Eatxpress.co</h1>
+</div>
+
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<ul>
+  <li><a href="homepage.html">HOME</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">ABOUT US</a>
+    <div class="dropdown-content">
+      <a href="vision&mission.html">VISION & MISSION</a>
+      <a href="background&introduction.html">BACKGROUND & INTRODUCTION</a>
+      <a href="services.html">SERVICES</a>
+    </div>
+  <li class="dropdown">
+    <a href="menu.html" class="dropbtn">MENU</a>
+    <div class="dropdown-content">
+      <a href="food.html">FOODS</a>
+      <a href="beverages.html">BEVERAGES</a>
+      <a href="dessert.html">DESSERT</a>
+    </div>
+ <li class="dropdown">
+    <a href="contactus.html" class="dropbtn">CONTACT US</a>
+    <div class="dropdown-content">
+      <a href="email.html">E-MAIL</a>
+    </div>
+ <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">ORDER NOW</a>
+    <div class="dropdown-content">
+      <a href="pickupform.html">PICK-UP</a>
+      <a href="deliveryform.html">DELIVERY</a>
+    </div>
+  </li>
+</ul>
+</div>
+<br>
+ <script>
+            (function(e, t, n, r) {
+                if (e) return;
+                t._appt = true;
+                var i = n.createElement(r),
+                    s = n.getElementsByTagName(r)[0];
+                i.async = true;
+                i.src = '//dje0x8zlxc38k.cloudfront.net/loaders/s-min.js';
+                s.parentNode.insertBefore(i, s)
+            })(window._appt, window, document, "script")
+        </script>
+    </div>
+</section>
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="jpg/panda.jpg"  style="width:47%">
+  <img class="mySlides" src="png/label.png"  style="width:50%">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+} 
+</script>
+<!-- Start of WebFreeCounter Code -->
+<a href="https://www.webfreecounter.com/" target="_blank"><img src="https://www.webfreecounter.com/hit.php?id=genaccp&nd=6&style=121" border="0" alt="visitor counter"></a>
+<!-- End of WebFreeCounter Code -->
+</body>
+</html>
+
